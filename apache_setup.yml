@@ -1,0 +1,6 @@
+---
+- name: Install and configure apache role
+  hosts: all
+  become: true
+  roles:
+    - ansible-role-apache
